@@ -13,7 +13,7 @@ import org.slf4j.Logger;
  * @author Admin
  *
  */
-public class Maps {
+public final class Maps {
     private Maps() {
     }
 

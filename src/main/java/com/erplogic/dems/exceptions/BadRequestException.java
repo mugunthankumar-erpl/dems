@@ -9,7 +9,7 @@ public class BadRequestException extends RuntimeException {
      */
     private static final long serialVersionUID = 1L;
     public static final String BAD_REQUEST = "Bad Request";
-    Errors errors;
+    private Errors errors;
 
     public Errors getErrors() {
         return errors;

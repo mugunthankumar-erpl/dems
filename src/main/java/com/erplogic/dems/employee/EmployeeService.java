@@ -22,7 +22,7 @@ import com.erplogic.dems.utilities.Operation;
 public class EmployeeService extends AbstractEntityService<MEmployee, Integer> {
 
     @Autowired
-    EmployeeDAO dao;
+    private EmployeeDAO dao;
 
     @Override
     public Errors validate(final MEmployee o, final Operation opr, final Map<String, String> params) {

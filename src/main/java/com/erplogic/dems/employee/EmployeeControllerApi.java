@@ -12,7 +12,7 @@ import com.erplogic.dems.entities.MEmployee;
 @RequestMapping("/api/employee")
 public class EmployeeControllerApi extends AbstractController<MEmployee, Integer> {
     @Autowired
-    EmployeeService s;
+    private EmployeeService s;
 
     @Override
     protected AbstractEntityService<MEmployee, Integer> getService() {

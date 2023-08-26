@@ -18,7 +18,7 @@ import com.erplogic.dems.entities.MEmployee;
 public class EmployeeDAO extends AbstractEntityDao<MEmployee, Integer> {
 
     @Autowired
-    EmployeeRepository employeeRepository;
+    private EmployeeRepository employeeRepository;
 
     @Override
     protected RepositoryCommon<MEmployee, Integer> getRepsitoryDAO() {

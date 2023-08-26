@@ -5,7 +5,7 @@ public class ApiResponse {
     private Object data;
     private Errors error;
 
-    MetaData metaData;
+    private MetaData metaData;
 
     public ApiResponse() {
         super();

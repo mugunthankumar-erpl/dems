@@ -9,7 +9,7 @@ package com.erplogic.dems.response.structure;
  */
 public class MetaData {
 
-    PaginationMeta paginationMeta;
+    private PaginationMeta paginationMeta;
 
     public PaginationMeta getPaginationMeta() {
 

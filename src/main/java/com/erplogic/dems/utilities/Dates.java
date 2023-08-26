@@ -9,7 +9,11 @@ import java.time.LocalDateTime;
  * @author Admin
  *
  */
-public class Dates {
+public final class Dates {
+
+    private Dates() {
+
+    }
 
     public static LocalDateTime getCurrentLocalDateAndTime() {
 
