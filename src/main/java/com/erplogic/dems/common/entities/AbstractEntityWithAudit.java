@@ -5,10 +5,10 @@ package com.erplogic.dems.common.entities;
 
 import java.time.LocalDateTime;
 
-import com.fasterxml.jackson.annotation.JsonFormat;
+import javax.persistence.Column;
+import javax.persistence.MappedSuperclass;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.MappedSuperclass;
+import com.fasterxml.jackson.annotation.JsonFormat;
 
 /**
  * @author Admin
