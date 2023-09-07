@@ -97,7 +97,7 @@
                 value="do not insert"/>
       <setting id="org.eclipse.jdt.core.formatter.insert_space_before_assignment_operator"
                 value="insert"/>
-      <setting id="org.eclipse.jdt.core.formatter.comment.line_length" value="500"/>
+      <setting id="org.eclipse.jdt.core.formatter.comment.line_length" value="400"/>
       <setting id="org.eclipse.jdt.core.formatter.insert_space_after_opening_paren_in_constructor_declaration"
                 value="do not insert"/>
       <setting id="org.eclipse.jdt.core.formatter.insert_space_before_colon_in_conditional"
@@ -211,7 +211,7 @@
       <setting id="org.eclipse.jdt.core.formatter.tabulation.char" value="space"/>
       <setting id="org.eclipse.jdt.core.formatter.insert_space_before_opening_paren_in_if"
                 value="insert"/>
-      <setting id="org.eclipse.jdt.core.formatter.lineSplit" value="500"/>
+      <setting id="org.eclipse.jdt.core.formatter.lineSplit" value="400"/>
       <setting id="org.eclipse.jdt.core.formatter.insert_space_after_opening_paren_in_annotation"
                 value="do not insert"/>
    </profile>
