@@ -28,6 +28,7 @@ import org.springframework.web.bind.annotation.RequestParam;
  *
  */
 
+// cross origin for avoid domain error
 @CrossOrigin
 public abstract class AbstractController<T, K> extends AbstractAPI {
 
