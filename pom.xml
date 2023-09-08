@@ -25,6 +25,11 @@
 			<artifactId>cxf-rt-frontend-jaxws</artifactId>
 			<version>3.4.0</version> <!-- Replace with the latest version -->
 		</dependency>
+		<dependency>
+			<groupId>org.apache.cxf</groupId>
+			<artifactId>cxf-rt-transports-http</artifactId>
+			<version>3.4.5</version>
+		</dependency>
 
 
 		<dependency>
