@@ -24,11 +24,10 @@ public class ExpenseReportService extends javax.xml.ws.Service {
         URL url = null;
         try {
             url = new URL(
-                "file:///" + System.getProperty("user.dir") + "//integrationhome/wsdl/YGCBELCOY_ExpenseReportWS.wsdl");
+                "file:///" + System.getProperty("user.dir") + "/integrationhome/wsdl/YGCBELCOY_ExpenseReportWS.wsdl");
         } catch (final MalformedURLException e) {
             java.util.logging.Logger.getLogger(ExpenseReportService.class.getName()).log(java.util.logging.Level.INFO,
-                "Can not initialize the default wsdl from {0}",
-                "file:/D:/eclipse/eclipse-workspace/proxy/integrationhome/wsdl/YGCBELCOY_ExpenseReportWS.wsdl");
+                "Can not initialize the default wsdl from {0}", url);
         }
         WSDL_LOCATION = url;
     }

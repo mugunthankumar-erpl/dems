@@ -1,4 +1,4 @@
-package com.erplogic.dems;
+package com.erplogic.sap;
 
 import javax.xml.datatype.DatatypeConfigurationException;
 
@@ -13,8 +13,7 @@ public class ErplogicHrmsApplication {
 
     public static void main(final String[] args) throws StandardFaultMessageException, DatatypeConfigurationException {
         SpringApplication.run(ErplogicHrmsApplication.class, args);
-        final ExpenseWebService ex = new ExpenseWebService();
-        ex.createResponse();
+        final ExpenseWebService expense = new ExpenseWebService();
+        expense.createResponse();
     }
-
 }

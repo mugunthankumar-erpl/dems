@@ -2,6 +2,7 @@ package com.erplogic.sap.apis;
 
 import java.io.ByteArrayOutputStream;
 import java.io.OutputStream;
+import java.nio.charset.StandardCharsets;
 
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBElement;
@@ -29,8 +30,7 @@ public final class JaxbToXml {
 
             jaxbMarshaller.marshal(jaxbElement, os);
 
-            // System.out.println(new String(((ByteArrayOutputStream) os).toByteArray(),
-            // StandardCharsets.UTF_8));
+            System.out.println(new String(((ByteArrayOutputStream) os).toByteArray(), StandardCharsets.UTF_8));
             // If we have JAXB annotated class
             // jaxbMarshaller.marshal(employeeObj, System.out);
 
